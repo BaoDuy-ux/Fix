@@ -2015,7 +2015,9 @@ MonoBehaviour:
   chatMessagePrefab: {fileID: 0}
   onlineUsersText: {fileID: 0}
   toggleChatButton: {fileID: 0}
+  clearChatButton: {fileID: 0}
   refreshInterval: 2
+  clearChatKey: 127
 --- !u!4 &816252083
 Transform:
   m_ObjectHideFlags: 0
@@ -2585,7 +2587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f87311618b1eff64db0aabd7e2054914, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serverURL: http://localhost:5000
+  serverURL: http://26.11.5.169:5000
 --- !u!4 &1160509975
 Transform:
   m_ObjectHideFlags: 0
